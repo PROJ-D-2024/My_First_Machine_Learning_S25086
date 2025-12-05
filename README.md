@@ -1,6 +1,6 @@
 # My_First_Machine_Learning_S25086
 
-#Dla regresji liniowej:
+# Dla regresji liniowej:
 
 R²: 0.5757877060324521  
 MSE: 0.5558915986952425  
@@ -13,23 +13,23 @@ czy spada (ujemny wskaźnik) w porównaniu do innej przykładowej cechy. Im wyż
 
 ============================================================================
 
-#Dla Random Forest:  
-
+# Dla Random Forest:  
+```
 Accuracy: 1.0  
-              precision    recall  f1-score   support  
+              precision    recall  f1-score   support
 
-           0       1.00      1.00      1.00        10  
-           1       1.00      1.00      1.00         9  
-           2       1.00      1.00      1.00        11  
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
 
-    accuracy                           1.00        30  
-   macro avg       1.00      1.00      1.00        30  
-weighted avg       1.00      1.00      1.00        30  
-
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+```
 ============================================================================
 
-#Dla Naiwny klasyfikator Bayesa  
-
+# Dla Naiwny klasyfikator Bayesa  
+```
 Accuracy: 0.9780405405405406  
               precision    recall  f1-score   support  
 
@@ -40,7 +40,7 @@ Accuracy: 0.9780405405405406
     accuracy                           0.98       592  
    macro avg       0.98      0.98      0.98       592  
 weighted avg       0.98      0.98      0.98       592  
-
+```
 Text: 'From: LMARSHA@cms.cc.wayne.edu (Laurie Marshall)  
 Subject: Re: Where's Roger?  
 Org...'  
@@ -61,7 +61,7 @@ Real state: rec.sport.hockey | Prediction: rec.sport.hockey
 
 ============================================================================
 
-#Wnioski
+# Wnioski
 
 Najszybszymi modelami był model regresji liniowej i Rajdom Forest, klasyfikator Bayesa trwał ok. 1 sekundę dłużej z uwagi na fakt,  
 że dataset ma większą ilość danych od pozostałych.  
