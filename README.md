@@ -1,12 +1,12 @@
 # My_First_Machine_Learning_S25086
 
 # Dla regresji liniowej:
-
+```
 R²: 0.5757877060324521  
 MSE: 0.5558915986952425  
 Coefficients: [ 4.48674910e-01  9.72425752e-03 -1.23323343e-01  7.83144907e-01
  -2.02962058e-06 -3.52631849e-03 -4.19792487e-01 -4.33708065e-01]  
-
+```
 Coefficients (współczynniki) w przypadku regresji liniowej określają o ile zmieni się wartość celu (w tym ćwiczeniu ceny domów) jeśli wartość danej przykładowej cechy wzrośnie o jedną jednostkę,  
 zakładając że wszystkie inne cechy pozostają niezmienione. W przypadku datasetu w tym ćwiczeniu, jako że dane są liniowe model określa czy wartość ceny domów wzrasta (dodatni wskaźnik),  
 czy spada (ujemny wskaźnik) w porównaniu do innej przykładowej cechy. Im wyższa wartość współczynnika tym cena domów jest bardziej zależna od tej konkretnej badanej cechy.
@@ -39,8 +39,8 @@ Accuracy: 0.9780405405405406
 
     accuracy                           0.98       592  
    macro avg       0.98      0.98      0.98       592  
-weighted avg       0.98      0.98      0.98       592  
-```
+weighted avg       0.98      0.98      0.98       592
+
 Text: 'From: LMARSHA@cms.cc.wayne.edu (Laurie Marshall)  
 Subject: Re: Where's Roger?  
 Org...'  
@@ -58,7 +58,7 @@ Real state: comp.graphics | Prediction: comp.graphics
 Text: 'From: hammerl@acsu.buffalo.edu (Valerie S. Hammerl)  
 Subject: Re: Oilers for sale...'  
 Real state: rec.sport.hockey | Prediction: rec.sport.hockey  
-
+```
 ============================================================================
 
 # Wnioski
